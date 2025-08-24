@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Team Riaz PDF Update Tool - Pilgrim Mortgage</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            navy: '#002655',
+            gold: '#fbc13f',
+            sky: '#1a6eb6',
+            tranquil: '#5178a0',
+            grey: '#edeced'
+          },
+          fontFamily: {
+            magnesium: ['Montserrat', 'system-ui', 'sans-serif'],
+            montserrat: ['Montserrat', 'system-ui', 'sans-serif'],
+            opensans: ['"Open Sans"', 'system-ui', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <!-- jsPDF -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-white font-opensans">
+  <!-- ... [your body content as provided above] ... -->
+</body>
+</html>
